@@ -1,4 +1,10 @@
 @import "normalize";
+@import "vars";
 @import "nav";
 @import "header";
 @import "main";
+
+body {
+  font-family: $main-font-family;
+  font-size: 1em;
+}
