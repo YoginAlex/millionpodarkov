@@ -1,0 +1,58 @@
+.header {
+  height: 6em;
+  margin: 0.5em auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  &>div {
+    display: block;
+  }
+
+  .logo {
+    display: block;
+    a {
+      display: block;
+      margin: 0 1em;
+      width: 100%;
+    }
+  }
+
+  .search {
+    display: block;
+    flex-grow: 1;
+    form {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      line-height: 40px;
+      height: 40px;
+
+      .search__input, .search__submit {
+        padding: 5px;
+      }
+
+      .search__input {
+        flex-grow: 1;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px 20px;
+        margin: 0 10px 0 5px;
+      }
+
+      .search__submit {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 1em;
+      }
+    }
+  }
+
+  .auth {
+    display: block;
+    margin-right: 1em;
+  }
+}

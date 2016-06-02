@@ -1,5 +1,7 @@
 @import "normalize";
 @import "vars";
+@import "button";
+@import "links";
 @import "nav";
 @import "header";
 @import "main";
@@ -7,4 +9,5 @@
 body {
   font-family: $main-font-family;
   font-size: 1em;
+  background-color: #f5f9fa;
 }

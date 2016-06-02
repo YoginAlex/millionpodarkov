@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  border: 1px solid black;
+  background: black;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &.button_green {
+    border: 1px solid #3dbe70;
+    background: #3dbe70;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      border-color: lighten(#3dbe70, 20%);
+      background-color: lighten(#3dbe70, 20%);
+    }
+  }
+}
