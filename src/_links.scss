@@ -1,6 +1,6 @@
 .link {
   text-decoration: none;
-  color: #0083cb;
+  color: $links-color;
   &:hover {
     text-decoration: underline;
   }

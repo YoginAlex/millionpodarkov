@@ -38,6 +38,17 @@
           margin-bottom: 0.2em;
           label {
             cursor: pointer;
+            span {
+              color: $links-color;
+              border: none;
+              transition: border 0.2s ease-in-out;
+            }
+
+            &:hover {
+              span {
+                border-bottom: dashed 1px $links-color;
+              }
+            }
           }
         }
       }

@@ -2,3 +2,15 @@
 @import "main/goods";
 @import "main/goods-showcase";
 @import "main/goods-filter";
+
+.main {
+  display: flex;
+  flex-direction: row;
+  .left-sidebar {
+    display: block;
+  }
+  .goods {
+    flex-grow: 1;
+    display: block;
+  }
+}
